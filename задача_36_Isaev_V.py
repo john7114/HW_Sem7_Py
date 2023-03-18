@@ -9,7 +9,7 @@
 # ((house, дом), (car, машина), (men, человек), (tree, дерево))
 
 
-list_str = [x for x in input("Введите строку: ").split()]
+list_str = input("Введите строку: ").split()
 tp = tuple(map(lambda x: tuple(x.split('=')), list_str))
 
 print(tp)
